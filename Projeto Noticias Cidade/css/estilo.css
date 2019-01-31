@@ -1,0 +1,245 @@
+/* Estrutura do Site
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	width: 100%;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container {
+	margin: 0 auto;
+ 	width: 55%;
+ 	min-width: 920px;
+ 	max-width: 1920px;
+}
+
+/* Menu Topo 
+*/
+#logo {
+	background: url(../imagens/logo.png) no-repeat;
+	width: 152px;
+	height: 66px;
+	float: left;
+	margin-top: 20px;
+}
+
+#detalhe-topo {
+	background: url(../imagens/detalhe-topo.png) no-repeat;
+	width: 176px;
+	height: 179px;
+	display: inline-block;
+	float: right;
+	margin-right: 60px;
+}
+
+#menu-topo {
+	float: left;
+	clear: left;
+}
+
+#menu-topo ul {
+	margin-top: 30px;
+	background-color: #DE003E;
+	float: left;
+	border: 1px solid #8E052B;
+}
+
+#menu-topo li{
+	float: left;
+ }
+
+#menu-topo a {
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y;
+	padding: 0 1.7em;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+#menu-topo .primeiro a {
+	background: none;
+}
+
+#menu-topo li a:hover {
+	background: #8E052B; 	
+	float: left;
+}
+
+#home .home a,
+#brasil .brasil {
+	color: #fff;
+	background: #8E052B;
+	display: block;
+}
+
+/* Menu lateral 
+*/
+#menu-lateral {
+    margin-top: 45px;
+	clear: both;
+	width: 22%;
+	float: left;
+}
+
+.h1-home {
+	background: #294C71; 
+	color: #fff;
+	text-indent: 5px;
+	line-height: 35px;
+	font-size: 0.7em;
+}
+
+#menu-lateral li {
+	padding: 10px 5px;
+	color: #000;
+}
+
+#menu-lateral a:link, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.conteudo-lateral {
+	margin-top: 20px;
+}
+
+.conteudo-lateral label {
+	padding: 10px 5px;
+}
+
+.email-input {
+	margin-left: 5px;
+	padding-left: 5px;
+	border: 1px solid #294C71;
+	height: 20px;
+	width: 90%;
+}
+
+.cadastrar-email {
+	margin-top: 10px;
+	background-color: #DE003E;
+	border: 1px solid #8E052B;
+	line-height: 30px;
+	width: 45%;
+	margin-left: 25%;
+	color: #fff;
+}
+
+/* Area Principal
+*/
+#coluna1 {
+	float: left;
+	width: 30%; 
+	margin-left: 40px;
+	margin-top: 45px;
+
+}
+
+.h2-home {
+	font-size: 0.7em;
+	background-color: #DE003E;
+	border: 1px solid #8E052B;
+	color: #fff;
+	text-indent: 5px;
+	margin-top: 20px;
+}
+
+.img-principal img {
+	float: left;
+	width: 100%;
+}
+
+.p-principal a {
+	color: #DE003E; 
+}
+
+.p-principal p {
+	margin-top: 10px;
+}
+
+.conteudo-principal {
+	margin-top: 20px;
+}
+
+/* Segunda parte
+*/
+.img-secundario img {
+	width: 45%;	
+	margin-top: 15px;
+}
+
+.lista-conteudo p {
+	font-size: 0.7em;
+	margin-left: 110px;  	
+	margin-top: 10px;	
+}
+
+.lista-conteudo img {
+	float: left;
+	padding: 5px 5px;
+}
+
+.lista-conteudo h3 {
+	color: #3e7ab9;
+	font-size: 1em;
+	margin-left: 110px;
+}
+
+.lista-conteudo {
+	margin-top: 16px;
+	border-bottom: 1px solid gray;
+	height: 75px;
+}
+
+.lista-conteudo:hover {
+	background-color: #e9e9e9;
+}
+
+/*
+Coluna 2 
+*/
+#coluna2 {
+	float: left;
+	width: 30%;
+	margin-left: 40px;
+	margin-top: 67px;
+}
+
+.clear {
+	clear: both;
+}
+/*
+Rodapé 
+*/
+
+#rodape span {
+	color: #fff;
+	display: block;
+	background-color: #294C71;
+	line-height: 50px;
+	text-indent: 400px;
+	margin-top: 20px;
+}
+
+/*
+Brasil Destaque 
+*/
+#destaque {
+	width: 55%;
+	float: left;
+	margin-top: 44px;
+	margin-left: 40px;
+}
+
+
+
+
+
