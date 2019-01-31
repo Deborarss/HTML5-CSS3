@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:"Trebuchet-MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+#container {
+	width: 920px;
+	margin: 0 auto;
+}
+
+/* 
+**** Marca ****
+*/
+#marca {
+	background: #8B8989;
+}
+
+#marca h1 {
+	text-align: center;
+	line-height: 120px;
+}
+
+/* 
+**** Menu Lateral ****
+*/
+#menu-lateral {
+	float: left;
+	width: 240px;
+	background: #CDC9C9;
+}
+
+#menu-lateral ul {
+	text-indent: 70px;
+	padding: 40px 0;
+	line-height: 30px;
+	list-style-type: none;
+}
+
+#menu-lateral a {
+	text-decoration: none;
+}
+
+/* 
+**** Conteúdo ****
+*/
+#conteudo {
+	width: 400px;
+	float: left;
+	padding: 0 10px;
+}
+
+#conteudo p {
+	margin-top: 10px;
+}
+
+.postagens {
+    margin: 10px 0;
+}
+
+/* 
+**** Recentes ****
+*/
+#recentes {
+	float: left;
+	width: 246px;
+	padding: 10px 5px;
+	background:#EEE5DE;
+}
+
+/* 
+**** Rodapé ****
+*/
+#rodape {
+	clear: both;
+	text-align: center;
+	background:#EEE9E9;
+	line-height: 40px;
+	margin-top: 620px;
+}

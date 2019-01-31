@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:"Trebuchet-MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+#container {
+	width: 50%;
+	margin: 0 auto;
+	min-width: 920px;
+	max-width: 1920px;
+}
+
+/* 
+**** Marca ****
+*/
+#marca {
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 200px;
+	height: 200px;
+}
+
+/* 
+**** Menu Lateral ****
+*/
+#menu-lateral {
+	float: left;
+	width: 25%; /*240px*/  
+	background: #CDC9C9;
+}
+
+#menu-lateral ul {
+	text-indent: 70px;
+	padding: 40px 0;
+	line-height: 30px;
+	list-style-type: none;
+}
+
+#menu-lateral a {
+	text-decoration: none;
+}
+
+/* 
+**** Conteúdo ****
+*/
+#conteudo {
+	width: 46%; /*400px*/
+	float: left;
+	padding: 0 10px;
+	margin-left: 10px;
+	max-width: 600px;
+}
+
+#conteudo p {
+	margin-top: 10px;
+}
+
+.postagens {
+    margin: 10px 0;
+}
+
+img.img-postagem {
+	width: 98%;
+	padding-top: 2%;
+}
+/* 
+**** Recentes ****
+*/
+#recentes {
+	float: right;
+	width: 23%; /*246px*/
+	padding: 10px 5px;
+	background:#EEE5DE;
+}
+
+/* 
+**** Rodapé ****
+*/
+#rodape {
+	clear: both;
+	text-align: center;
+	background:#EEE9E9;
+	line-height: 40px;
+	margin-top: 620px;
+}

@@ -1,0 +1,16 @@
+#caixa {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	background: orange;
+}
+
+#caixa:hover {
+	width: 400px;
+	background: yellow;
+	-webkit-transition: ;
+	-moz-transition: ;
+	-o-transition: ;
+	/*transition: width 3s, background 3s ;*/
+	transition: all 3s;   /*Todas as propriedades */
+}
